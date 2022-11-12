@@ -1,0 +1,257 @@
+.header-container {
+    position: absolute;
+    width: 100%;
+    height: 7rem;
+    font-size: 13px;
+}
+
+.header-container
+.info-bar {
+    height: 2.5rem;
+    padding: 0 2rem;
+    background: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    white-space: nowrap;
+}
+
+.header-container
+.info-bar
+a,
+.location-info {
+    color: rgb(151, 151, 151);
+    height: 2.5rem;
+}
+
+.header-container
+.info-bar
+a:hover {
+    color: black;
+}
+
+.header-container
+.info-bar
+.location-info,
+.tel-number {
+    display: flex;
+    align-items: center;
+}
+
+.header-container
+.info-bar 
+.location-tel-side {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.header-container
+.info-bar
+.location-tel-side
+.location-info
+a {
+    display: flex;
+    align-items: center;
+}
+
+.header-container
+.info-bar
+.location-tel-side
+.location-info
+.fa-map-marker-alt {
+    margin-right: 0.3rem;
+}
+
+.header-container
+.info-bar
+.location-tel-side
+.tel-number
+.link-text-style {
+    margin-left: 0.5rem;
+    color: black;
+}
+
+.header-container
+.menu-container {
+    position: relative;
+    height: 4.5rem;
+    border-bottom: 1px solid #f0f0f0;
+    background-color: white;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 3.5rem;
+    padding-left: 1rem;
+}
+
+.header-container
+.menu-container
+a {
+    color: black;
+    height: 4.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.header-container
+.menu-container
+a:hover {
+    color: red;
+}
+
+.header-container
+.menu-container
+.logo-main-page-link
+#mitsubishi-logo {
+    height: 100%;
+}
+
+.header-container
+.menu-container
+.nav-car-models-catalogue {
+    font-size: 16px;
+    display: none;
+    list-style-type: none;
+    z-index: 2;
+    box-shadow: 0 5px 8px -3px rgba(50, 50, 50, 0.75);
+}
+
+.header-container
+.menu-container
+.nav-car-models-catalogue-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 100%;
+    min-width: 10rem;
+    background-color: unset;
+    border: unset;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.header-container
+.menu-container
+.nav-car-models-catalogue-button:hover {
+    color: red;
+}
+
+.header-container
+.menu-container
+.nav-car-models-catalogue-button:after,
+.header-container
+.menu-container
+.nav-car-models-catalogue-button:before {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 2rem;
+    border: 5px solid transparent;
+    transform: rotate(45deg);
+}
+
+.header-container
+.menu-container
+.nav-car-models-catalogue-button:after {
+    border-bottom: 5px solid red;
+    border-right: 5px solid red;
+}
+
+.header-container
+.menu-container
+.nav-car-models-catalogue-button:before {
+    bottom: 2.1rem;
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+    z-index: 1;
+}
+
+.header-container
+.menu-container
+.nav-car-models-catalogue.open {
+    animation: open 0.2s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 15rem;
+    top: 4.5rem;
+    left: 0;
+    width: 100%;
+    background: #f0f0f0;
+    user-select: none;
+}
+
+@keyframes open {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+  
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+.header-container
+.menu-container
+.nav-car-models-catalogue
+li
+a
+.car-figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-container
+.menu-container
+.nav-car-models-catalogue
+li
+a
+.car-figure
+.car-image {
+    width: 80%;
+}
+
+.header-container
+.menu-container
+.nav-car-models-catalogue
+li
+a
+.car-figure:hover:before { 
+    content: '';
+    position: absolute;
+    width: 15%;
+    height: 0.2rem;
+    background: red;
+    bottom: 0;
+}
+
+.header-container
+.menu-container
+.nav-car-models-catalogue
+li
+a
+.car-figure
+figcaption {
+    line-height: 2;
+    text-align: center;
+}
+
+.header-container
+.menu-container
+.current-page-link-style {
+    font-weight: 600;
+    color: red;
+}
+
+.header-container
+.menu-container
+.current-page-link-style:hover {
+    color: black;
+}

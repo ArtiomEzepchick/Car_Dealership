@@ -1,2 +1,2 @@
-# HTML_CSS_Project
+# HTML + CSS project
 My first HTML + CSS project.

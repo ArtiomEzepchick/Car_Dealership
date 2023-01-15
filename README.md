@@ -1,6 +1,7 @@
 # HTML + CSS project
 This is my first HTML + CSS project - 19 page website.
-Just use Live Server to run it.
+
+https://artiomezepchick.github.io/Car_Dealership/
 
 Some reservations:
 - naming (classes, id's) is not so good because I was inexperienced;
